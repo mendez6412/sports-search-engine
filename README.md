@@ -1,7 +1,7 @@
 # sports-search-engine
 
 ## Files
-  - explorer.py: A menu (or simple cml) based database explorer for the ever amazing class list of D&D Characters
+  - [explorer.py](explorer.py): A menu (or simple cml) based database explorer for the ever amazing class list of D&D Characters
   - create_db.py: A python file to create and add data from my csv
   - classes.csv: A csv file with names and D&D 5e classes, races and levels
   - random_class_gen.py: A python file to randomly assign classes and races to my friends
