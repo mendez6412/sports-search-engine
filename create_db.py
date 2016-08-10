@@ -8,7 +8,7 @@ conn = psycopg2.connect("dbname=players user=tmendez")
 cur = conn.cursor()
 
 # Execute a command: this creates a new table
-cur.execute("DROP TABLE players")
+# cur.execute("DROP TABLE players")
 cur.execute("CREATE TABLE IF NOT EXISTS players (id serial PRIMARY KEY, name varchar, race varchar, class varchar, level integer);")
 
 with open('classes.csv') as f:
